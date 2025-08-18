@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script type="module" src="journal.js"></script>
+
     <title>Movie theater | journal</title>
   </head>
   <body class="bg-black font-sans">
@@ -30,7 +33,8 @@
         <li>
           <a
             href="journal.html"
-            class="inline-block text-white no-underline bg-transparent px-3 py-1 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(255,255,255,3)]">
+            class="inline-block text-white no-underline bg-transparent px-3 py-1 transition duration-300 hover:drop-shadow-[0_0_8px_rgba(255,255,255,3)]"
+          >
             Journal
           </a>
         </li>
@@ -39,7 +43,9 @@
     <main class="pt-[6rem]">
       <section>
         <div class="container mx-auto p-4">
-          <h1 class="text-3xl font-bold mb-4 text-white"><span class="text-[#F5C518]">||</span>Favourite Movies</h1>
+          <h1 class="text-3xl font-bold mb-4 text-white">
+            <span class="text-[#F5C518]">||</span>Favourite Movies
+          </h1>
           <div
             id="favourite-movie-container"
             class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4"
@@ -51,6 +57,5 @@
       <section></section>
     </main>
     <footer></footer>
-    <script type="module" src="journal.js"></script>
   </body>
 </html>
